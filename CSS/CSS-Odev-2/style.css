@@ -1,0 +1,15 @@
+/* Kutu hizalari icin */
+* {
+  box-sizing: border-box;
+}
+
+/* Ortalama */
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Kucuk font */
+.fs-small {
+  font-size: 13px;
+}
