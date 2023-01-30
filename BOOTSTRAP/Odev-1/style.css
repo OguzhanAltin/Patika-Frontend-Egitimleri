@@ -1,0 +1,85 @@
+body {
+  background-color: #e9ecef;
+}
+
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+header {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.nav-link {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: rgb(133, 42, 42);
+}
+
+.nav-link:focus {
+  color: rgb(133, 42, 42);
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(212, 16, 16) !important;
+}
+
+.navbar-nav > li {
+  margin: 0 14px;
+}
+
+.img-w-h {
+  width: auto;
+  height: 285px;
+  object-fit: contain;
+}
+
+.main > .container {
+  display: flex !important;
+  width: 100% !important;
+}
+
+.col-md,
+.col-lg,
+.col-xl {
+  flex: 1 !important;
+  padding: 16px !important;
+}
+
+li > .bi {
+  transition: fill 0.2s;
+}
+
+li > .bi:hover {
+  fill: rgb(133, 42, 42);
+}
+
+/* Responsive */
+@media screen and (max-width: 765px) {
+  .row-main > .center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
