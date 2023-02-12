@@ -1,6 +1,6 @@
 # **PATIKA.dev**
 
-> PATIKA.dev frontend egitimitinde yaptığım veri yapıları ve algoritmalar üzerine proje örnekleri
+> PATIKA.dev frontend egitimitinde aldığım _Veri Yapıları ve Algoritmalar_ dersi üzerine proje örnekleri
 
 # **Licence**
 
